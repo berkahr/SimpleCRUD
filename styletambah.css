@@ -1,0 +1,10 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 20px;
+}

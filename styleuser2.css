@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+body {
+  background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.navigation {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 1.4em;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 99;
+  }
+  .navigation .logo{
+    font-size: 1.4em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center-links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .Sign {
+    margin-left: auto;
+  }
+
+  .user{
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  ul i{
+    padding: auto;
+    font-size: 25px;
+  }
+  .profile{
+    color: #000;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  li a:active {
+    text-decoration: underline;
+  }
+  
+  .logo a{
+    padding-left: 15px;
+    color: #000000;
+  }
+  
+  .home,
+  .about,
+  .contact {
+    margin-right: auto;
+    font-size: 10px;
+    color: #2e266f;
+  }
+  
+  .maps{
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .waktu-text{
+    display: flex;
+    font-size: 4.6em;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+  }
+
+  .waktu-time{
+    display: flex;
+    font-size: 4.6em;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+  }
+  .profile-container{
+
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .row{
+    background-color: #f6922e;
+    border-radius: 25px;
+  }
+  .col-md-4{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  .menuprofile{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 99;
+    width: 100px;
+    text-align: center;
+  }
+  .menuprofile a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .menuprofile a:hover{
+    background-color: #f1f1f1;
+  }
+  .profile-container:hover .menuprofile {
+    display: block;
+}
+.border{
+    background-color: #f1f1f1;
+    margin-top: 60px;
+}
+  @media (max-width: 768px) {
+    .center-links{
+      display: none;
+    }
+  }
